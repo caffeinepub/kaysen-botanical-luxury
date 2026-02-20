@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.625rem;
+        
+        /* Emerald & Botanical Color Palette */
+        --emerald-deep: 0.25 0.15 160;
+        --emerald-mid: 0.35 0.12 160;
+        --emerald-light: 0.65 0.10 160;
+        --emerald-accent: 0.55 0.14 165;
+        
+        --botanical-accent: 0.60 0.12 140;
+        --botanical-light: 0.75 0.08 145;
+        
+        --luxury-gold: 0.75 0.15 85;
+        --luxury-gold-dark: 0.55 0.18 80;
+        
+        --stage-dark: 0.15 0.02 160;
+        --stage-frame: 0.20 0.03 160;
+        
+        /* Base tokens */
+        --background: 0.98 0.01 160;
+        --foreground: 0.15 0.02 160;
+        
+        --card: 0.98 0.01 160;
+        --card-foreground: 0.15 0.02 160;
+        
+        --popover: 0.98 0.01 160;
+        --popover-foreground: 0.15 0.02 160;
+        
+        --primary: 0.25 0.15 160;
+        --primary-foreground: 0.98 0.01 160;
+        
+        --secondary: 0.92 0.02 160;
+        --secondary-foreground: 0.15 0.02 160;
+        
+        --muted: 0.92 0.02 160;
+        --muted-foreground: 0.50 0.05 160;
+        
+        --accent: 0.55 0.14 165;
+        --accent-foreground: 0.98 0.01 160;
+        
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.98 0.01 160;
+        
+        --border: 0.88 0.02 160;
+        --input: 0.88 0.02 160;
+        --ring: 0.55 0.14 165;
+        
+        --chart-1: 0.55 0.14 165;
+        --chart-2: 0.60 0.12 140;
+        --chart-3: 0.75 0.15 85;
+        --chart-4: 0.65 0.10 160;
+        --chart-5: 0.35 0.12 160;
+    }
+
+    .dark {
+        --background: 0.12 0.03 160;
+        --foreground: 0.95 0.01 160;
+        
+        --card: 0.18 0.04 160;
+        --card-foreground: 0.95 0.01 160;
+        
+        --popover: 0.15 0.03 160;
+        --popover-foreground: 0.95 0.01 160;
+        
+        --primary: 0.75 0.15 85;
+        --primary-foreground: 0.12 0.03 160;
+        
+        --secondary: 0.22 0.05 160;
+        --secondary-foreground: 0.95 0.01 160;
+        
+        --muted: 0.22 0.05 160;
+        --muted-foreground: 0.60 0.08 160;
+        
+        --accent: 0.55 0.14 165;
+        --accent-foreground: 0.95 0.01 160;
+        
+        --destructive: 0.60 0.22 25;
+        --destructive-foreground: 0.95 0.01 160;
+        
+        --border: 0.25 0.05 160;
+        --input: 0.25 0.05 160;
+        --ring: 0.55 0.14 165;
+        
+        --stage-dark: 0.10 0.04 160;
+        --stage-frame: 0.15 0.05 160;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    
+    .font-display {
+        font-family: 'Playfair Display', 'Georgia', serif;
+        font-optical-sizing: auto;
+    }
+    
+    .font-serif {
+        font-family: 'Cormorant Garamond', 'Georgia', serif;
+    }
+}
+
+@layer utilities {
+    /* Custom color utilities */
+    .text-emerald-deep { color: oklch(var(--emerald-deep)); }
+    .text-emerald-mid { color: oklch(var(--emerald-mid)); }
+    .text-emerald-light { color: oklch(var(--emerald-light)); }
+    .text-emerald-accent { color: oklch(var(--emerald-accent)); }
+    .text-botanical-accent { color: oklch(var(--botanical-accent)); }
+    .text-botanical-light { color: oklch(var(--botanical-light)); }
+    .text-luxury-gold { color: oklch(var(--luxury-gold)); }
+    .text-luxury-gold-dark { color: oklch(var(--luxury-gold-dark)); }
+    .text-stage-dark { color: oklch(var(--stage-dark)); }
+    .text-stage-frame { color: oklch(var(--stage-frame)); }
+    
+    .bg-emerald-deep { background-color: oklch(var(--emerald-deep)); }
+    .bg-emerald-mid { background-color: oklch(var(--emerald-mid)); }
+    .bg-emerald-light { background-color: oklch(var(--emerald-light)); }
+    .bg-emerald-accent { background-color: oklch(var(--emerald-accent)); }
+    .bg-botanical-accent { background-color: oklch(var(--botanical-accent)); }
+    .bg-botanical-light { background-color: oklch(var(--botanical-light)); }
+    .bg-luxury-gold { background-color: oklch(var(--luxury-gold)); }
+    .bg-luxury-gold-dark { background-color: oklch(var(--luxury-gold-dark)); }
+    .bg-stage-dark { background-color: oklch(var(--stage-dark)); }
+    .bg-stage-frame { background-color: oklch(var(--stage-frame)); }
+    
+    .border-emerald-accent { border-color: oklch(var(--emerald-accent)); }
+    .border-luxury-gold { border-color: oklch(var(--luxury-gold)); }
+    
+    /* Gradient utilities */
+    .bg-gradient-radial {
+        background-image: radial-gradient(circle, var(--tw-gradient-stops));
+    }
+    
+    .bg-radial-spotlight {
+        background: radial-gradient(circle, oklch(var(--luxury-gold) / 0.4) 0%, transparent 70%);
+    }
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');

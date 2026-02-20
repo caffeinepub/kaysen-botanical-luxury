@@ -1,2 +1,3 @@
-# kaysen-botanical-luxury
-Exported from Caffeine project: KAYSEN Botanical Luxury
+## KAYSEN Botanical Luxury
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

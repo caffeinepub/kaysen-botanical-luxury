@@ -1,0 +1,202 @@
+{
+  "kind": "build_request",
+  "title": "Build KAYSEN Botanical Luxury product showcase website with stop-motion aesthetic",
+  "projectName": "KAYSEN Botanical Luxury",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a comprehensive design specification documenting the stop-motion aesthetic, including color palette (deep emerald, botanical greens, luxury gold accents), typography choices, animation timing principles (mechanical, ratcheted movements), and interaction patterns (scroll-triggered sequences, spring physics)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Create Design PRD with aesthetic, animation, and interaction specs"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Design specification defines color palette with emerald and botanical tones",
+        "Typography system is specified for luxury brand presentation",
+        "Animation principles document mechanical, stop-motion timing",
+        "Interaction patterns specify scroll-based triggers and physics behaviors"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build Hero section featuring a diorama-style stage layout with stop-motion aesthetic, establishing the KAYSEN Botanical Luxury brand introduction with depth and theatrical presentation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build Hero section with diorama stage and stop-motion aesthetic"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section uses layered diorama composition with depth",
+        "Stop-motion aesthetic is applied to initial animations",
+        "Brand name KAYSEN Botanical Luxury is prominently displayed",
+        "Stage-like theatrical presentation frames the content"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build The Unveiling sequence featuring articulated mechanical hands animation that reveals the KAYSEN bottle through segmented, ratcheted movements mimicking stop-motion puppet articulation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build The Unveiling sequence with articulated hands animation"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Mechanical hands use articulated joint animation",
+        "Movement follows ratcheted, segmented stop-motion timing",
+        "Hands reveal the KAYSEN bottle through choreographed sequence",
+        "Animation conveys puppet-like mechanical precision"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Build The Focus section with spotlight feature using ratchet joint animation, creating mechanical precision in how light targets and highlights the product with stepped, deliberate movements",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build The Focus spotlight section with ratchet joint animation"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Spotlight uses ratchet joint animation for targeting",
+        "Light movement follows mechanical, stepped progression",
+        "Spotlight precisely highlights product details",
+        "Animation conveys mechanical apparatus precision"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Build The Wave section featuring an animated water feature using spring mechanism physics, creating flowing botanical water effects with bouncy, mechanical spring-loaded movements",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build The Wave water feature with spring mechanism"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Water feature uses spring physics for movement",
+        "Animation conveys bouncy, spring-loaded mechanics",
+        "Water flows with botanical aesthetic",
+        "Spring mechanism creates rhythmic, mechanical motion"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Implement audio design with plastic mechanism sounds that accompany animations, creating tactile audio feedback for ratchets, springs, and mechanical movements throughout the experience",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Implement audio design with plastic mechanism sounds"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Audio plays synchronized with mechanical animations",
+        "Sounds convey plastic ratchet clicks and spring movements",
+        "Audio feedback enhances tactile quality of interactions",
+        "Sound design matches stop-motion aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Build Product Details section showcasing KAYSEN Botanical Luxury product specifications, ingredients, and botanical story with elegant presentation and smooth scroll-triggered reveals",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build Product Details and Editions showcase"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Product details are displayed with luxury aesthetic",
+        "Botanical ingredients and story are prominently featured",
+        "Content reveals smoothly on scroll",
+        "Information hierarchy supports luxury brand positioning"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Build Editions showcase section displaying different KAYSEN product variants or limited editions with visual distinction and elegant presentation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Build Product Details and Editions showcase"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Product editions are visually distinguished",
+        "Each edition is presented with luxury aesthetic",
+        "Showcase allows clear comparison between variants",
+        "Presentation maintains brand consistency"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Polish all animations throughout the website to ensure consistent stop-motion timing, smooth transitions between sections, and cohesive mechanical aesthetic across all interactive elements",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Polish animations and deploy website"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All animations maintain consistent stop-motion aesthetic",
+        "Transitions between sections are smooth and intentional",
+        "Mechanical timing is cohesive across all elements",
+        "Performance is optimized for smooth playback"
+      ]
+    }
+  ],
+  "constraints": [
+    "All animations must follow stop-motion aesthetic with mechanical, ratcheted timing",
+    "Visual design must maintain luxury botanical brand positioning",
+    "Audio must synchronize precisely with mechanical animations",
+    "All sections must work cohesively as a single-page scroll experience"
+  ],
+  "nonGoals": [
+    "E-commerce functionality or shopping cart",
+    "User authentication or accounts",
+    "Backend data persistence",
+    "Multi-language support",
+    "Mobile app versions"
+  ],
+  "imageRequirements": {
+    "required": [
+      "KAYSEN Botanical Luxury product bottle with elegant glass design, botanical elements visible inside, luxury cap detail, premium photography lighting (kaysen-bottle.dim_800x1200.png)",
+      "Deep emerald luxury product box with botanical patterns, textured finish, gold foil accents, premium packaging photography (emerald-box.dim_600x600.png)",
+      "Botanical elements collection: leaves, flowers, herbs in artistic arrangement, fresh natural aesthetic, high-resolution photography (botanicals.dim_1200x800.png)",
+      "Water feature element with flowing liquid, botanical essence, crystalline clarity, macro photography with depth (water-feature.dim_800x800.png)",
+      "Theatrical spotlight illustration with mechanical joints, vintage stage lighting aesthetic, ratchet mechanism visible, technical drawing style (spotlight.dim_600x800.png)"
+    ],
+    "edits": []
+  }
+}

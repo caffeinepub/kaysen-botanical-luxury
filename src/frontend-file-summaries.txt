@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates the single-page scroll experience with all sections (Hero, Unveiling, Focus, Wave, Product Details, Editions, Footer) in sequence.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring diorama-style layered composition with parallax depth effects, theatrical stage framing, KAYSEN brand title, and stop-motion entrance animations.",
+  "frontend/src/components/UnveilingSequence.tsx": "Unveiling sequence component with articulated mechanical hands that reveal the KAYSEN bottle through ratcheted, segmented stop-motion movements synchronized with audio feedback.",
+  "frontend/src/components/FocusSpotlight.tsx": "Focus section featuring animated spotlight with ratchet joint movements that targets and highlights specific product details with mechanical precision timing.",
+  "frontend/src/components/WaveSection.tsx": "Wave section with animated water feature using spring physics to create bouncy, spring-loaded flowing movements with botanical aesthetic and synchronized audio.",
+  "frontend/src/components/ProductDetails.tsx": "Product details section showcasing KAYSEN specifications, botanical ingredients, and brand story with luxury aesthetic and scroll-triggered content reveals.",
+  "frontend/src/components/EditionsShowcase.tsx": "Editions showcase displaying three KAYSEN product variants with visual distinction, luxury presentation, and interactive selection highlighting.",
+  "frontend/src/components/Footer.tsx": "Footer component with KAYSEN branding, informational links, social media connections, and required caffeine.ai attribution with UTM tracking.",
+  "frontend/src/hooks/useScrollAnimation.tsx": "Custom React hook that tracks scroll progress and viewport visibility for elements, enabling scroll-triggered animations with intersection observer (fixed to accept nullable HTMLElement refs).",
+  "frontend/src/hooks/useSpringPhysics.ts": "Custom React hook implementing spring physics calculations for bouncy, mechanical movements with configurable stiffness and damping parameters (fixed useRef initialization).",
+  "frontend/src/utils/audioManager.ts": "Audio manager utility using Web Audio API to generate and play synthetic plastic mechanism sounds (ratchet clicks, mechanical whirs, spring bounces) synchronized with animations.",
+  "frontend/src/utils/animations.ts": "Animation utilities defining stop-motion timing functions, ratcheted movement patterns, spring physics configurations, and scroll-trigger thresholds for consistent mechanical aesthetic.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining emerald and botanical luxury color palette, custom typography with Playfair Display and Cormorant Garamond fonts, and utility classes for the stop-motion aesthetic.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with KAYSEN luxury color theme (emerald, botanical, gold), custom typography settings (Playfair Display, Cormorant Garamond), and luxury shadow utilities."
+}

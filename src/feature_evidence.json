@@ -1,0 +1,186 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-comprehensive-design-specification-documenting-the-stop-motion-aesthetic-including-color-palette-deep-emerald-botanical-greens-luxury-gold-accents-typography-choices-animation-timing-principles-mechanical-ratcheted-movements-and-interaction-patterns-scroll-triggered-sequences-spring-physics",
+      "featureTitle": "Create a comprehensive design specification documenting the stop-motion aesthetic, including color palette (deep emerald, botanical greens, luxury gold accents), typography choices, animation timing principles (mechanical, ratcheted movements), and interaction patterns (scroll-triggered sequences, spring physics)",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/src/utils/animations.ts",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-hero-section-featuring-a-diorama-style-stage-layout-with-stop-motion-aesthetic-establishing-the-kaysen-botanical-luxury-brand-introduction-with-depth-and-theatrical-presentation",
+      "featureTitle": "Build Hero section featuring a diorama-style stage layout with stop-motion aesthetic, establishing the KAYSEN Botanical Luxury brand introduction with depth and theatrical presentation",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-the-unveiling-sequence-featuring-articulated-mechanical-hands-animation-that-reveals-the-kaysen-bottle-through-segmented-ratcheted-movements-mimicking-stop-motion-puppet-articulation",
+      "featureTitle": "Build The Unveiling sequence featuring articulated mechanical hands animation that reveals the KAYSEN bottle through segmented, ratcheted movements mimicking stop-motion puppet articulation",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/UnveilingSequence.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-the-focus-section-with-spotlight-feature-using-ratchet-joint-animation-creating-mechanical-precision-in-how-light-targets-and-highlights-the-product-with-stepped-deliberate-movements",
+      "featureTitle": "Build The Focus section with spotlight feature using ratchet joint animation, creating mechanical precision in how light targets and highlights the product with stepped, deliberate movements",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/FocusSpotlight.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-the-wave-section-featuring-an-animated-water-feature-using-spring-mechanism-physics-creating-flowing-botanical-water-effects-with-bouncy-mechanical-spring-loaded-movements",
+      "featureTitle": "Build The Wave section featuring an animated water feature using spring mechanism physics, creating flowing botanical water effects with bouncy, mechanical spring-loaded movements",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WaveSection.tsx",
+        "frontend/src/hooks/useSpringPhysics.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-audio-design-with-plastic-mechanism-sounds-that-accompany-animations-creating-tactile-audio-feedback-for-ratchets-springs-and-mechanical-movements-throughout-the-experience",
+      "featureTitle": "Implement audio design with plastic mechanism sounds that accompany animations, creating tactile audio feedback for ratchets, springs, and mechanical movements throughout the experience",
+      "files": [
+        "frontend/src/components/FocusSpotlight.tsx",
+        "frontend/src/components/UnveilingSequence.tsx",
+        "frontend/src/components/WaveSection.tsx",
+        "frontend/src/utils/audioManager.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-product-details-section-showcasing-kaysen-botanical-luxury-product-specifications-ingredients-and-botanical-story-with-elegant-presentation-and-smooth-scroll-triggered-reveals",
+      "featureTitle": "Build Product Details section showcasing KAYSEN Botanical Luxury product specifications, ingredients, and botanical story with elegant presentation and smooth scroll-triggered reveals",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProductDetails.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-editions-showcase-section-displaying-different-kaysen-product-variants-or-limited-editions-with-visual-distinction-and-elegant-presentation",
+      "featureTitle": "Build Editions showcase section displaying different KAYSEN product variants or limited editions with visual distinction and elegant presentation",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/EditionsShowcase.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-polish-all-animations-throughout-the-website-to-ensure-consistent-stop-motion-timing-smooth-transitions-between-sections-and-cohesive-mechanical-aesthetic-across-all-interactive-elements",
+      "featureTitle": "Polish all animations throughout the website to ensure consistent stop-motion timing, smooth transitions between sections, and cohesive mechanical aesthetic across all interactive elements",
+      "files": [
+        "frontend/src/components/EditionsShowcase.tsx",
+        "frontend/src/components/FocusSpotlight.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/ProductDetails.tsx",
+        "frontend/src/components/UnveilingSequence.tsx",
+        "frontend/src/components/WaveSection.tsx",
+        "frontend/src/hooks/useScrollAnimation.tsx",
+        "frontend/src/utils/animations.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
